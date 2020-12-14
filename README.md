@@ -8,7 +8,3 @@ C版本：
 
 `$ clang dms2loc.c -o dms2loc && ./dms2loc`
 
-BASIC版本(Yabasic)：
-
-`$ yabasic dms2loc.yab`
-

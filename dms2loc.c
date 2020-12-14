@@ -4,7 +4,8 @@
  * 作用: 将度分秒格式的经纬度数值转换为梅登海德网格定位系统的字符串
  * 修改/翻译自《业余无线电通信》第四版第31页的BASIC程序
  * 使其适应于GNU/Linux下的clang编译
- * 用法：$ clang dms2loc.c -o dms2loc && ./dms2loc
+ * 用法：
+ *   $ clang dms2loc.c -o dms2loc && ./dms2loc
  */
 
 #include <stdio.h>
@@ -15,6 +16,7 @@ int main(int argc, char *argv[]) {
     char loc[] = "000000";
     /* 输入经度数据 */
     system("clear");
+    printf("将度、分、秒格式的经纬度数值转换为梅登海德网格定位系统的字符串的程序\n\n");
     printf("请依次输入所求地点经度的度、分、秒，中间用逗号隔开，\n");
     printf("东经为正、西经为负。\n");
     printf("（例：108.73,19.32,58.19、108,19,58）：");
