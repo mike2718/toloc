@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char *argv[]) {
+int main() {
     double a, b, c, d, e, f, x, y;
     char loc[] = "000000";
     /* 输入经度数据 */
