@@ -5,7 +5,7 @@
  * 修改/翻译自《业余无线电通信》第四版第31页的BASIC程序
  * 使其适应于GNU/Linux下的clang编译
  * 用法：
- *   $ clang dms2loc.c -o dms2loc && ./dms2loc
+ *   $ pcc dmstoloc.c -o dmstoloc && ./dmstoloc
  */
 
 #include <stdio.h>
