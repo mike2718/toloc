@@ -6,4 +6,4 @@
 
 将度分秒转换为为梅登黑德字符串：
 
-`$ pcc dmstoloc.c -o dmstoloc && ./dmstoloc`
+`$ pcc -Wall -Wpedantic -Wextra -Werror -Wcast-qual -O0 -std=c11 -o dmstoloc dmstoloc.c && ./dmstoloc`
